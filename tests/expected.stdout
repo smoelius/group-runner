@@ -1,0 +1,35 @@
+::group::fixture-[..]
+
+running 3 tests
+test it_works ... ok
+test it_works_in_a_house ... ok
+test it_works_with_a_mouse ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in [..]s
+
+::endgroup::
+::group::integration_one-[..]
+
+running 3 tests
+test it_works ... ok
+test it_works_in_a_box ... ok
+test it_works_with_a_fox ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in [..]s
+
+::endgroup::
+::group::integration_two-[..]
+
+running 3 tests
+test it_works ... ok
+test it_works_in_a_boat ... ok
+test it_works_with_a_goat ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in [..]s
+
+::endgroup::
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in [..]s
+
