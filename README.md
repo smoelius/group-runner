@@ -4,6 +4,8 @@ Group Rust executable output in GitHub logs
 
 ## Example output
 
+<img src="etc/screenshot.png">
+
 ## Recommended usage
 
 1. In your GitHub workflow file, install `group-runner`:
