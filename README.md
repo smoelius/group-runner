@@ -8,7 +8,7 @@ Group Rust executable output in GitHub logs
 
 ## Recommended usage
 
-1. In your GitHub workflow file, install `group-runner`:
+1. In your GitHub workflow, install `group-runner`:
 
    ```yaml
    steps:
@@ -26,7 +26,18 @@ Group Rust executable output in GitHub logs
      - name: Test
        run: cargo test --config "target.'cfg(all())'.runner = 'group-runner'"
    ```
+   See [The Cargo Book] for more information.
 
-See [The Cargo Book] for more information.
+## Notes
+
+- To avoid mixing build output with test output, we recommend building the tests in a separate step prior to running them. Example:
+
+  ```yaml
+  steps:
+    - name: Build
+      run: cargo test --no-run
+    - name: Test
+      run: cargo test --config "target.'cfg(all())'.runner = 'group-runner'"
+  ```
 
 [The Cargo Book]: https://doc.rust-lang.org/cargo/reference/config.html#targettriplerunner
