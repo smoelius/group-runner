@@ -30,7 +30,7 @@ Group Rust executable output in GitHub logs
 
 ## Notes
 
-- To avoid mixing build output with test output, we recommend building the tests in a separate step prior to running them. Example:
+- To avoid mixing build output with test output, we recommend building tests in a separate step prior to running them. Example:
 
   ```yaml
   steps:
