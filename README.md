@@ -2,6 +2,8 @@
 
 Group Rust executable output in GitHub logs
 
+`group-runner` is useful, e.g., when you have lots of integration tests and seeing their output concatenated can be overwhelming.
+
 ## Example output
 
 <img src="etc/screenshot.png">
