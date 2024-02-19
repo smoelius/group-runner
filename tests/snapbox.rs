@@ -28,6 +28,6 @@ fn snapbox() {
         .output()
         .unwrap();
     assert!(output.status.success());
-    snapbox::assert_matches_path("tests/expected.stdout", output.stdout);
-    snapbox::assert_matches_path("tests/expected.stderr", output.stderr);
+    snapbox::assert_matches(snapbox::file!("expected.stdout"), output.stdout);
+    snapbox::assert_matches(snapbox::file!("expected.stderr"), output.stderr);
 }
