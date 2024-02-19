@@ -77,9 +77,9 @@ checksum = "32fea41aca09ee824cc9724996433064c89f7777e60762749a4170a14abbfa21"
 
 [[package]]
 name = "snapbox"
-version = "0.4.17"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4b831b6e80fbcd2889efa75b185d24005f85981431495f995292b25836519d84"
+checksum = "47d9a121ed3297bc4575fa774033a9f1084e0a0c8de8dff416df4eae834121b3"
 dependencies = [
  "anstream",
  "anstyle",
