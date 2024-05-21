@@ -1,5 +1,5 @@
    Compiling fixture v0.1.0 ([..]/group-runner/fixture)
-    Finished test [unoptimized + debuginfo] target(s) in [..]s
+    Finished `test` profile [unoptimized + debuginfo] target(s) in [..]s
      Running unittests src/lib.rs (target/debug/deps/fixture-[..])
 warning: environment variable `CI` is unset---are we running on GitHub?
      Running tests/integration_one.rs (target/debug/deps/integration_one-[..])
