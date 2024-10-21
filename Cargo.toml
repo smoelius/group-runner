@@ -8,4 +8,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/smoelius/group-runner"
 
 [dev-dependencies]
+assert_cmd = "2.0"
+regex = "1.11"
 snapbox = "0.6"
+tempfile = "3.13"
