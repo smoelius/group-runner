@@ -3,7 +3,7 @@ use std::{
     ffi::OsStr,
     io::Error,
     path::Path,
-    process::{exit, Command},
+    process::{Command, exit},
 };
 
 fn main() -> Result<(), Error> {
