@@ -3,7 +3,7 @@ name = "group-runner"
 version = "0.1.2"
 authors = ["Samuel Moelius <sam@moeli.us>"]
 description = "Group Rust executable output in GitHub logs"
-edition = "2021"
+edition = "2024"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/smoelius/group-runner"
 
